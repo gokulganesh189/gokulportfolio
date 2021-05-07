@@ -1,0 +1,393 @@
+body{
+    padding: 5px;
+
+}
+.navbar{
+    outline: none;
+}
+
+a.navbar-brand p {
+  
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    color: firebrick;
+    text-shadow: 2px 2px 2px #8c8ca0;
+
+}
+
+.front{
+
+    height:700px;
+    background-image: url(../malasya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.full{
+    background-color: #dadece;
+    margin-top:-50px;
+
+   
+}
+.description{
+    padding:50px 50px 10px 50px;
+    font-size: 35px;
+
+    margin-top: 35px;
+
+    text-align: center;
+   
+}
+.description h2{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding:20px 20px 0px 20px;
+}
+.collapse ul li {
+    border-bottom: 1px solid black;
+}
+
+.nav-item a{
+    font-family: 'Julius Sans One', sans-serif;
+    word-spacing: 2px;
+    margin:40px 25px -10px 25px;
+   font-size: 29px; 
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   
+   transition-duration: .5s;
+
+}
+
+.nav-item a:hover{
+    
+    transform:scale(1.3);
+    
+
+}
+form .search{
+    background-color:#160d0d;
+    border:1px solid black;
+    border-radius: 20px;
+ 
+}
+button{
+    background-color: #3e61d4;
+    padding:8px;
+    outline:none;
+    border-radius: 20px;
+    transition-duration: .8s;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #8c8ca0;
+  
+}
+.search-icon{
+    display:flex;
+}
+.fa-search{
+    margin-top:6px;
+    font-size: 25px;
+    transition-duration: .5s;
+}
+.fa-search:hover{
+    transform:scale(1.3);
+}
+.full .row{
+    padding-left:25px;
+    padding-bottom:70px;
+}
+
+
+.img1{
+    background-image:url(../light.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.img1 a p:hover{
+    text-decoration: dashed;
+}
+.img2{
+    background-image:url(../city.jpg);
+    height:340px;
+    background-size: cover;
+
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+}
+.img3{
+    background-image:url(../kodaicanal.jpg);
+    height:340px;
+    background-size: cover;
+ 
+    border-radius: 30px;
+    box-shadow: none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+}
+
+.img4{
+    background-image:url(../pub.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+}
+
+.img5{
+    background-image:url(../seashore.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+
+.img6{
+    background-image:url(../streetfood.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.img7{
+    background-image:url(../forest.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.img8{
+    background-image:url(../coral.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;   
+
+}
+.img9{
+    background-image:url(../taj.jpg);
+    height:340px;
+    
+    background-size: cover;
+   
+    border-radius: 30px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover,.img9:hover{
+    border-radius:10px;
+    transform:scale(1.3);
+    box-shadow: 10px 10px 10px  black;
+    z-index: 100;
+    text-shadow:10px 10px 10px  black; ;
+}
+.test h2{
+    padding:20px;
+    font-weight:400;
+    transition-duration:1s;
+}
+.test h2:hover{
+    transform:scale(1.2);
+}
+.test{
+    background-color:#ffffff;
+    padding-top:60px;
+    padding-bottom:60px;
+    font-size:1.5rem;
+    text-align:justify;
+    line-height:45px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.why {
+    background-color:#ffffff;
+    font-size:1.5rem;
+    text-align:justify;
+    line-height:45px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.why h2{
+    padding:20px;
+    font-weight:400;
+    margin-top:-50px;
+    transition-duration:1s;
+}
+.why h2:hover{
+    transform:scale(1.2);
+}
+.why .cam img{
+    border:1px solid #443e3e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px #020202;
+}
+
+
+
+.footer{
+    background-color: purple;
+    color:white;
+    position: absolute;
+    left:15px;
+    padding-top: 25px;
+}
+.about h6{
+    line-height: 30px;
+}
+.about a social-icon{
+    color:blue;
+    font-size: 5rem;
+}
+.links a .social-icon{
+    font-size: 2rem;
+    padding:5px;
+    
+    text-decoration: none;
+    color:black;
+    text-shadow:5px 5px 5px #9b967a;
+
+}
+.links a .fa-youtube:hover{
+    color:#ad1f1f;
+}
+.links a .fa-linkedin:hover{
+    color:#0e30b9;
+}
+
+.links a .fa-envelope:hover{
+    color:#ecdcdc;
+}
+
+.links a .fa-facebook:hover{
+    color:#0b53b1;
+}
+
+.links a .fa-instagram:hover{
+    color:#ca171a;
+}
+
+.links a .fa-github:hover{
+    color:#5a12a1;
+}
+.fa-heart{
+    color:#867e7e;
+    font-size: 30px;
+}
+.fa-comment{
+    color:#867e7e;
+    font-size: 30px;
+}
+.fa-shopping-cart{
+    color:#867e7e;
+    font-size: 40px;
+}
+
+.fa-heart:hover{
+    color:#831e6f;
+    font-size: 33px;
+}
+.fa-comment:hover{
+    color:#831e6f;
+    font-size: 33px;
+}
+.fa-shopping-cart:hover{
+    color:black;
+    font-size: 45px;
+}
+
+/* party places */
+
+.party{
+    padding:50px 50px 10px 50px;
+    font-size: 35px;
+    margin-top: 35px;
+    text-align: center;
+  
+    
+}
+
+.party h2{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding:20px 20px 50px 20px;
+}
+.party_image1{
+    background-image:url(../tomorrowland_1.jpg);
+    height:340px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.party_image1:hover{
+    background-image:url(../tomorrowland_2.jpg);
+
+}
+.party_image2{
+    background-image:url(../umf_2.jpg);
+    height:340px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:none;
+    margin-left:60px;
+    margin-right:40px;
+    transition-duration: .5s;
+
+}
+.party_image2:hover{
+    background-image:url(../umf_1.jpg);
+
+}
+.party_description h3{
+    font-weight: 400;
+}
+.party_description p{
+    font-size:15px;
+    text-align: justify;
+}
